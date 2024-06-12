@@ -12,7 +12,8 @@ body {
 
 h2:hover,
 .intro-h1,
-.exprience-header {
+.exprience-header,
+.project-header {
     font-weight: 600;
 }
 
@@ -76,10 +77,13 @@ hr{
     opacity: 0.2;
 }
 
-.exprience-header {
-    margin-top: 26%;
+.exprience-header, .project-header {
     text-align: center;
     font-size: 2.5rem;
+}
+
+.exprience-header {
+    margin-top: 26%;
 }
 
 .card {
@@ -100,7 +104,7 @@ hr{
     margin-bottom: 10px;
 }
 
-.project-detail>li{
+.project-detail{
     list-style-type: none;
     padding-left: 10px;
     font-size: 18px;
@@ -108,4 +112,27 @@ hr{
 
 .footer{
     padding-bottom: 50px;
+}
+
+.project-header{
+    margin-top: 50px;
+}
+
+/* .slideshow-container{
+    position: relative;
+} */
+
+.project-image{
+    width: 40%;
+}
+
+.detail-left{
+    position: absolute;
+    left: 45%;
+    padding-right: 5%;
+}
+
+.project-skill{
+    margin-top: 8%;
+    padding-left: 10px;
 }
