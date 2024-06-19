@@ -203,6 +203,20 @@ hr {
         margin-left: 15%;
     }
 
+    .two-column {
+        display: block;
+    }
+
+    .safetist-project-image,
+    .fibolio-project-image,
+    .themoonbake-project-image {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
     .contact-info {
         flex: 40%;
     }
@@ -291,6 +305,12 @@ hr {
 
     .project-detail {
         font-size: 16px;
+    }
+
+    .safetist-project-image,
+    .fibolio-project-image,
+    .themoonbake-project-image {
+        width: 100%;
     }
 
     .contact-deatil {
